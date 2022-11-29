@@ -1,0 +1,7 @@
+.header{
+    background-color: rgb(236,117,93);
+    width: calc(100vw - 2rem);
+    height: 8rem;
+    margin: 3.65rem auto;
+    border-radius: 16px;
+}
