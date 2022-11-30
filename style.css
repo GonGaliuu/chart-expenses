@@ -1,5 +1,7 @@
 @import url(assets/css/header.css);
 @import url(assets/css/content.css);
+@import url(assets/css/separate.css);
+@import url(assets/css/stats.css);
 body{
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
