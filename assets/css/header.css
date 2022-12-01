@@ -33,3 +33,11 @@
     width: 5rem;
     height: 3rem;
 }
+
+
+@media screen and (max-width: 3840px){
+    .header{
+        max-height: 7.5rem;
+        max-width: 34rem;
+    }
+}

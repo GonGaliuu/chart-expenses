@@ -7,3 +7,14 @@ body{
     font-size: 18px;
     background-color: rgb(247, 233, 220);
 }
+
+@media screen and (max-width: 3840px){
+    
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    }
+}
