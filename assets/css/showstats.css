@@ -1,0 +1,64 @@
+.show{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas: 'dom seg ter qua qui sex sab';
+    margin-left: 0.5rem;
+}
+
+.showstats{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: transparent;
+    background-color: rgb(55,36,19);
+}
+
+.showstats-1{
+    grid-area: dom;
+    display: none;
+    margin-left: 0.5rem;
+}
+
+.showstats-2{
+    grid-area: seg;
+    display: none;
+    margin-left: 0.3rem;
+}
+
+.showstats-3{
+    grid-area: ter;
+    display: none;
+    margin-left: 0.3rem;
+}
+
+.showstats-4{
+    grid-area: qua;
+    display: none;
+    margin-left: 0.3rem;
+}
+
+.showstats-5{
+    grid-area: qui;
+    display: none;
+    margin-left: 0.3rem;
+}
+
+.showstats-6{
+    grid-area: sex;
+    display: none;
+    margin-left: 0.3rem;
+}
+
+.showstats-7{
+    grid-area: sab;
+    display: none;
+    margin-left: 0.3rem;
+}
+
+.showstats__value{
+    color: white;
+    line-height: 3rem;
+    font-size: .7rem;
+}

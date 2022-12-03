@@ -21,11 +21,12 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 4rem;
 }
 
 .content__bars--content{
     width: 2.25rem;
-    height: 12rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -35,6 +36,10 @@
     width: 100%;
     background-color: rgb(236,117,93);
     border-radius: 5px;
+}
+
+.content__bars--content-bar:hover{
+    cursor: pointer;
 }
 
 .content__bars--content-name{

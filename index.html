@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,14 +15,23 @@
 <body class="main">
     <section class="header">
         <div class="header__balance">
-            <p class="header__balance--title">My balance</p>
-            <span class="header__balance--value">R$ 921.48</span>
+            <p class="header__balance--title">Meu balanço</p>
+            <span class="header__balance--value" id="balance"></span>
         </div>
         <div class="header__logo"></div>
     </section>
     <section class="content">
         <div class="content__title">
-            <h3 class="content__title--title">Spending - Last 7 days</h3>
+            <h3 class="content__title--title">Gastos - Ultimos 7 dias</h3>
+            <div class="show" id="show">
+                <div class="showstats showstats-1"><p class="showstats__value" id="valordomingo">50</p></div>
+                <div class="showstats showstats-2"><p class="showstats__value" id="valorsegunda"></p></div>
+                <div class="showstats showstats-3"><p class="showstats__value" id="valorterca"></p></div>
+                <div class="showstats showstats-4"><p class="showstats__value" id="valorquarta"></p></div>
+                <div class="showstats showstats-5"><p class="showstats__value" id="valorquinta"></p></div>
+                <div class="showstats showstats-6"><p class="showstats__value" id="valorsexta"></p></div>
+                <div class="showstats showstats-7"><p class="showstats__value" id="valorsabado"></p></div>
+            </div>
         </div>
         <div class="content__bars">
             <div class="content__bars--content">
@@ -57,12 +66,12 @@
         <hr class="separate">
         <div class="stats">
             <div class="stats__separate">
-                <p class="stats__separate--title">Total this month</p>
-                <span class="stats__separate--value">R$ 478.33</span>
+                <p class="stats__separate--title">Total essa semana</p>
+                <span class="stats__separate--value" id="valorsemana"></span>
             </div>
             <div class="stats__mount">
                 <span class="stats__mount--percent">+2,4%</span>
-                <p class="stats__mount--subtitle">from last month</p>
+                <p class="stats__mount--subtitle">maior que semana passada</p>
             </div>
         </div>
     </section>
