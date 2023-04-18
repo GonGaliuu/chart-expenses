@@ -19,7 +19,7 @@ Pronto! Agora você deve estar visualizando o website localmente no seu navegado
 
 ## Como usar:
 
-A página do projeto é a layout para criação/seleção de habilidades de um personagem para um jogo, onde você deve mudar as estatísticas para que o personagem tenha um balanceamento desejável.
+A web aplicação é um exemplo de como uma aplicação pode ser utilizada para visualização e organização de gastos. Todos os dados são gerados aleatoriamente a cada vez que a página é recarregada.
 
 ## Contato
 
